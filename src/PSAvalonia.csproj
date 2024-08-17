@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
@@ -12,11 +12,11 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.10.*" />
-    <PackageReference Include="Avalonia.Controls.DataGrid" Version="0.10.*" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.10.*" />
-    <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="0.10.*" />
-    <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="2.1.0" />
+    <PackageReference Include="Avalonia" Version="0.11.*" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="0.11.*" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.11.*" />
+    <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="0.11.*" />
+    <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="3.1.6" />
     <PackageReference Include="PowerShellStandard.Library" Version="5.1.1" />
   </ItemGroup>
 </Project>
